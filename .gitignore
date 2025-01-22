@@ -1,0 +1,23 @@
+__pycache__/
+.venv/
+venv/
+.DS_Store
+
+.env
+.env.script
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+.DS_Store
+/.vs
+/package-lock.json
+
+scripts/output
+*.log
+
+# Ignore test results
+test-results.xml
+coverage.xml
+.coverage

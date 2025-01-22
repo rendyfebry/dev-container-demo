@@ -1,4 +1,8 @@
 {
+    "workbench.colorTheme": "Monokai",
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 13,
+    "debug.console.fontSize": 13,
     "editor.formatOnSave": true,
     "files.insertFinalNewline": true,
     "git.ignoreLimitWarning": true,

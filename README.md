@@ -27,7 +27,12 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4. Run the app
+4. Install pre-commit hooks
+```bash
+pre-commit install
+```
+
+5. Run the app
 ```bash
 uvicorn app.main:app --reload --port 8181
 ```

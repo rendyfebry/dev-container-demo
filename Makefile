@@ -6,6 +6,9 @@ setup: requirements.txt ## Install requirements
 run: ## Run app with uvicorn
 	uvicorn app.main:app --reload --port 8181
 
+run-docker: ## Run app with docker
+	docker compose up
+
 test: ## Run tests
 	python -m pytest -vv -n auto -m "not integration" .
 
